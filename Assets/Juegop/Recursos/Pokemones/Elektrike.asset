@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f594b0d9ccc0bc43b064c23d4f71a63, type: 3}
+  m_Name: Elektrike
+  m_EditorClassIdentifier: 
+  nombre: Elektrike
+  descripcion: 
+  spritefrente: {fileID: 6765935227856925615, guid: 8eddc7b15d1155840a884fd91084bfbd, type: 3}
+  spritedetras: {fileID: 3485612199621595740, guid: b48e946793c0ecb4fa7fc0adc78b7934, type: 3}
+  tipo1: 5
+  tipo2: 0
+  maxPs: 40
+  ataque: 45
+  defensa: 40
+  spAtaque: 65
+  spDefensa: 40
+  velocidad: 65
+  exp: 60
+  crecimiento: 0
+  aprenderMovimientos:
+  - movimientosBase: {fileID: 11400000, guid: fdff958308660f54caacca9bffe44c40, type: 2}
+    nivel: 1
+  - movimientosBase: {fileID: 11400000, guid: e851d0cce06666648857de658e394342, type: 2}
+    nivel: 8
+  NivelMaximo: 100

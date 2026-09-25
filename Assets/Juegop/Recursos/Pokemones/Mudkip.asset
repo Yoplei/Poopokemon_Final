@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f594b0d9ccc0bc43b064c23d4f71a63, type: 3}
+  m_Name: Mudkip
+  m_EditorClassIdentifier: 
+  nombre: Mudkip
+  descripcion: 
+  spritefrente: {fileID: -6763572295760785279, guid: a9da2cf458449a54ea6c79835295d9a1, type: 3}
+  spritedetras: {fileID: -2758826813751683924, guid: ffa8fa99ae0ad4a4cba2245ae11b79ae, type: 3}
+  tipo1: 3
+  tipo2: 0
+  maxPs: 50
+  ataque: 70
+  defensa: 50
+  spAtaque: 50
+  spDefensa: 50
+  velocidad: 40
+  exp: 60
+  crecimiento: 0
+  aprenderMovimientos:
+  - movimientosBase: {fileID: 11400000, guid: fdff958308660f54caacca9bffe44c40, type: 2}
+    nivel: 1
+  - movimientosBase: {fileID: 11400000, guid: a65369cfa7afe31448ce063a67295367, type: 2}
+    nivel: 5
+  - movimientosBase: {fileID: 11400000, guid: d58415b83565581438ef63aec1871410, type: 2}
+    nivel: 9
+  NivelMaximo: 100

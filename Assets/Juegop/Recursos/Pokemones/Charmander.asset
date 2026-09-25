@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f594b0d9ccc0bc43b064c23d4f71a63, type: 3}
+  m_Name: Charmander
+  m_EditorClassIdentifier: 
+  nombre: Charmander
+  descripcion: 
+  spritefrente: {fileID: -1509525088455390036, guid: 0ad62a4763e783247a1a963a4ebe3db8, type: 3}
+  spritedetras: {fileID: -613469905773276607, guid: 8553575cdd24b0a4c812f1b6f5716082, type: 3}
+  tipo1: 2
+  tipo2: 0
+  maxPs: 39
+  ataque: 52
+  defensa: 43
+  spAtaque: 60
+  spDefensa: 50
+  velocidad: 65
+  exp: 60
+  crecimiento: 0
+  aprenderMovimientos:
+  - movimientosBase: {fileID: 11400000, guid: c86b9118a3e1f14419d5ae12b3876bdd, type: 2}
+    nivel: 1
+  - movimientosBase: {fileID: 11400000, guid: 51f5b0c84d4e4964daa25022469f5a72, type: 2}
+    nivel: 7
+  NivelMaximo: 100
